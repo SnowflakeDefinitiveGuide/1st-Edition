@@ -198,7 +198,7 @@ RETURNS variant LANGUAGE JAVASCRIPT AS
 // Page 85 - Display the results of the recently created JavaScript UDF
 SELECT FACTORIAL(5);
  
-// Page 87 - Create a table with 1000,000 rows from the demo database  
+// Page 87 - Create a table with 100,000 rows from the demo database  
 USE ROLE SYSADMIN;
 CREATE OR REPLACE DATABASE DEMO3D_DB;
 CREATE OR REPLACE TABLE DEMO3D_DB.PUBLIC.SALES AS
