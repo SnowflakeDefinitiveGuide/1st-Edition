@@ -267,4 +267,3 @@ FROM (SELECT 'A' as LETTER, 1 as LOCATION
  
 // Page 145 - Code Cleanup
 DROP DATABASE DEMO4_DB; 
-
