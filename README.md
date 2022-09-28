@@ -18,6 +18,8 @@
 
 #### The book is also available at your local [Barnes & Noble](https://www.barnesandnoble.com/w/snowflake-joyce-avila/1141119692) bookstore and other independent bookstores around the world.
 
+#### The Snowflake Definitive Guide can now be [purchased in India](https://www.shroffpublishers.com/books/9789355421746/)
+
 <br />
 <br />
 <br />
