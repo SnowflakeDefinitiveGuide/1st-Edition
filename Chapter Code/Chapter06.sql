@@ -252,7 +252,7 @@ INSERT INTO TABLE18
 SELECT ARRAY_INSERT(array_construct(0, 1, 2, 3), 7, 4);
 
 // Page 202 - See the data in TABLE18
-SLECT * FROM TABLE18;
+SELECT * FROM TABLE18;
 
 // Page 202 - Create a new table to be used for next example
 CREATE OR REPLACE TABLE TABLE19
@@ -309,10 +309,10 @@ CREATE OR REPLACE TABLE TABLE20 (id integer, f_name string, l_name string, city 
 
 // Page 211 -- In SnowSQL -- Load the CSV file into the table stage
 // Make sure to replace the location in the example with the location on your computer
-Put file:///users/joyce/documents/TABLE20.csv @”DEMO6_DB”.”SNOW”.%”TABLE20”;
+Put file:///users/joyce/documents/TABLE20.csv @"DEMO6_DB"."SNOW".%"TABLE20";
 
 // Page 211 - In SnowSQL -- Use the COPY INTO command
-COPY INTO “TABLE20” FROM @”DEMO6_DB”.”SNOW”.%”TABLE20” file_format=(type=csv SKIP_HEADER=1);
+COPY INTO "TABLE20" FROM @"DEMO6_DB"."SNOW".%"TABLE20" file_format=(type=csv SKIP_HEADER=1);
 
 // Page 222 - Example of how to clone a table
 // Make sure you are back in the worksheet
