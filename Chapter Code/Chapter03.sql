@@ -66,7 +66,7 @@ CREATE OR REPLACE SCHEMA BANKING;
 USE ROLE SYSADMIN;
 CREATE OR REPLACE SCHEMA DEMO3A_DB.BANKING;
 
-// Page 65 - Using the SHOW TABLES command to see the details of tables
+// Page 65 - Using the SHOW SCHEMAS command to see the details of schemas
 SHOW SCHEMAS;
 
 // Page 66 - Change the retention time for a schema
